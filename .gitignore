@@ -16,6 +16,7 @@ conf/eula_run.conf
 
 # Egg
 logo/
+venv/*
 
 
 *.py[co]
@@ -33,3 +34,6 @@ develop-eggs/
 
 # Installer logs
 pip-log.txt
+
+imports/*.pyd
+imports/*.pyc
